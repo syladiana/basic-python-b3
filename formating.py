@@ -5,7 +5,7 @@ tahun = "Tahun"
 # print(type(age))
 # print(type(tahun))
 
-print("Menghitung lluas persegi panjang")
+print("Menghitung luas persegi panjang")
 panjang = int(input("Masukkan panjang : "))
 lebar = int(input("Masukkan lebar : "))
 
