@@ -1,0 +1,21 @@
+nama = input("Masukkan nama :")
+umur = input("Umur : ")
+tinggi = input("Tinggi : ")
+
+print("Nama saya adalah : " +nama)
+print("Umur saya : "+umur)
+print("Tinggi saya : "+tinggi)
+
+print(type(nama))
+print(nama)
+print(type(umur))
+string_to_int = int(umur)
+print(type(string_to_int))
+print(string_to_int)
+print(type(tinggi))
+string_to_dec = float(tinggi)
+print(type(string_to_dec))
+print(string_to_dec)
+
+output = "Nama saya {}, umur saya {} tahun dan tinggi saya {} cm.".format(nama,umur,tinggi)
+print(output)
