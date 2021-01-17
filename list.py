@@ -14,7 +14,7 @@ print(angka_list)
 
 hasil = ""
 angka = 0
-for x in range(0,len(angka_list)): #range(0,4)
+for x in range(0,len(angka_list)): 
     hasil = hasil+angka_list[x]+" "
     print(hasil)
 print(hasil)
