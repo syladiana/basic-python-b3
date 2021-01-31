@@ -5,8 +5,6 @@
 import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
-from email.mime.base import MIMEBase
-from email import encoders
 
 file = open('e:\Indonesian AI\Basic-python-b3\Final-project/receiver_list.txt', 'r').read()
 flx = file.split()
