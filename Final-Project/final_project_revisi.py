@@ -24,7 +24,7 @@ text = msg.as_string()
 server = smtplib.SMTP('smtp.gmail.com', 587)
 server.starttls()
 
-password = input(str("Masukan Password :"))
+password = input(str("Enter Password :"))
 server.login(sender_email, password)
 print("Login success!")
 server.sendmail(sender_email, rec_email, text)
